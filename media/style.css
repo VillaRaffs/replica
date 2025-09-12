@@ -11,6 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 5vh;
+    padding-bottom: 50px;
 }
 
 h1{
@@ -60,11 +61,13 @@ h1{
 .logo{
     width: 70px;
     height: auto;
+    z-index: 1;
 }
 
 .logo1{
     width: 70px;
     height: auto;
+    z-index: 1;
 }
 
 .logos{
@@ -90,6 +93,8 @@ h1{
 .texto{
     display: flex;
     align-items: center;
-    width: 200px;
-    height: auto;
+    font-weight: 100px;
+    color:rgba(180,186,202, 0.5);
+    font-family: "Saira", sans-serif;
+    width: 80%;
 }
